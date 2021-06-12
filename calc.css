@@ -1,0 +1,56 @@
+#calcbody{
+    background-color: grey;
+    width: 400px;
+    height: 600px;
+    border-radius: 40px;
+    display: grid;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+#display{
+    background-color: green;
+    border-radius: 20px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.number{
+    background-color: rgb(218, 218, 230);
+    border-radius: 20px;
+}
+
+.operator{
+    background-color: rgb(218, 218, 230);
+    border-radius: 20px;
+}
+
+#one{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#two{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#three{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#equalsign{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
